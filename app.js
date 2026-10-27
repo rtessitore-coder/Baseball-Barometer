@@ -162,7 +162,7 @@ function shell(page) {
       el('a', { class: 'brand', href: 'index.html' }, 'Baseball ', el('span', {}, 'Barometer')), toggle, nav)));
   document.getElementById('site-foot').replaceChildren(el('div', { class: 'wrap' },
     el('p', {}, 'Free to use, with no paywall. Your teams, posts and model are saved only in this browser.'),
-    el('p', {}, el('a', { href: 'README.md' }, 'How real data would plug in')),
+    el('p', {}, el('a', { href: 'https://github.com/rtessitore-coder/Baseball-Barometer#readme' }, 'How real data would plug in')),
     el('p', {}, 'Not affiliated with Major League Baseball, Baseball Reference or Baseball Savant. Demo data is fictional.')));
 }
 
